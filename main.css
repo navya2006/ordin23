@@ -53,11 +53,13 @@ body {
   place-items: center;
   grid-template-columns: 1fr 4fr 3fr 4fr 1fr;
   grid-template-rows: 100%;
+  font-family: 'Public Sans', sans-serif;
 }
 
 .abt-ordin {
   grid-column: 2;
   grid-row: 1;
+  font-family: 'Public Sans', sans-serif;
   margin: 1em;
 }
 .abt-ordin:first-child {
@@ -93,27 +95,27 @@ body {
 /*GUIDELINES*/
 /*GUIDELINES*/
 .guide {
-  max-width: 100%;
-
-  padding-bottom: 50px;
-  padding-top: 50px;
+  background-image: url(images/con.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+  display: grid;
+  place-items: center;
 }
 
 .guide p {
-  font-size: 18px;
+  font-size: 0.9em;
   color: var(--text);
-  padding-left: 20px;
-  padding-right: 10px;
-  font-family: "Poppins", sans-serif;
-  margin-bottom: 10px;
+  font-family: 'Public Sans', sans-serif;
 }
 
 .guide h2 {
   text-align: center;
-  font-size: 10vh;
+  padding-top: 30px;
+  font-size: 4em;
   color: var(--three);
-  padding-bottom: 50px;
-  font-family: "Poiret One", cursive;
+  font-family: 'Public Sans', sans-serif;
 }
 
 .guide .shade {
