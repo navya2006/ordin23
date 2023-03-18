@@ -1,12 +1,9 @@
 :root {
-  --primary-color: #bee3db;
-  --secondary-color: #ecd46c;
   --text: #555b6e;
   --black: #000;
-  --ajib-white: #eef0f2;
-  --white: #faf9f9;
-  --one: #89b0ae;
-  --two: #389695;
+  --white: #eef0f2;
+  --ajib-black: #88b48b;
+  --dark-red: #000;
   --light: #111;
 }
 
@@ -186,4 +183,70 @@ body {
 
 .movie > div > p > img {
   margin-bottom: 0.7em;
+}
+
+.event-slider {
+  height: 100%;
+}
+
+.splide__track {
+  height: 100%;
+}
+
+.sheesh > div {
+  height: 100%;
+  background: #111;
+  width: 100%;
+  display: grid;
+  place-items: center;
+}
+
+.sheesh > div > p {
+  font-size: 3em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: -moz-linear-gradient(
+    90deg,
+    rgba(64, 114, 117, 1) 0%,
+    rgba(163, 222, 131, 1) 44%,
+    rgba(247, 243, 154, 1) 89%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.sheesh > div > p > img {
+  margin: 0 1em;
+  height: 2em;
+  width: auto;
+}
+
+.movie > div > p > img {
+  margin-bottom: 0.7em;
+}
+
+/*FOOTER*/
+/* FOOTER */
+
+.footer {
+  padding: 5% 10%;
+  margin-top: 2em;
+  text-align: center;
+  z-index: 1;
+  background-color: var(--ajib-black);
+  color: var(--font-color);
+}
+
+.footer img {
+  transition: 0.4s;
+  width: 100%;
+}
+
+.img-footer img {
+  background-image: var(--logo-text);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left;
 }
