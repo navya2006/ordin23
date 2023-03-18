@@ -119,7 +119,8 @@ body {
   padding-top: 30px;
   font-size: 4em;
   color: var(--three);
-  font-family: 'Public Sans', sans-serif;
+  letter-spacing:4px;
+  text-transform: uppercase;
 }
 
 .guide .shade {
