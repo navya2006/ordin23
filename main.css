@@ -1,12 +1,9 @@
 :root {
-  --primary-color: #bee3db;
-  --secondary-color: #ecd46c;
   --text: #555b6e;
   --black: #000;
-  --ajib-white: #eef0f2;
-  --white: #faf9f9;
-  --one: #89b0ae;
-  --two: #389695;
+  --white: #eef0f2;
+  --ajib-black: #88b48b;
+  --dark-red: #000;
   --light: #111;
 }
 
@@ -144,4 +141,29 @@ body {
 .guide .box {
   padding: 50px;
   border: 2px #34c8ec solid;
+}
+
+
+/*FOOTER*/
+/* FOOTER */
+
+.footer {
+  padding: 5% 10%;
+  margin-top: 2em;
+  text-align: center;
+  z-index: 1;
+  background-color: var(--ajib-black);
+  color: var(--font-color)
+}
+
+.footer img {
+  transition: 0.4s;
+  width: 100%;
+}
+
+.img-footer img {
+  background-image: var(--logo-text);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left;
 }
