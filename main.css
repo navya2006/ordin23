@@ -171,6 +171,12 @@ body {
     rgba(163, 222, 131, 1) 44%,
     rgba(247, 243, 154, 1) 89%
   );
+  background: linear-gradient(
+    90deg,
+    rgba(64, 114, 117, 1) 0%,
+    rgba(163, 222, 131, 1) 44%,
+    rgba(247, 243, 154, 1) 89%
+  );
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
