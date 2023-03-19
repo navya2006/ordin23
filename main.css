@@ -204,6 +204,7 @@ body {
   font-size: 0.8em;
   color: var(--white);
   font-family: "Public Sans", sans-serif;
+  padding: 5em;
 }
 
 .sheesh > div {
