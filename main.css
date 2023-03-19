@@ -33,6 +33,7 @@ body {
   height: 100%;
   display: grid;
   place-items: center;
+  color: antiquewhite;
 }
 
 .home div {
