@@ -200,6 +200,12 @@ body {
   height: 100%;
 }
 
+.sheesh h3{
+  font-size: 0.8em;
+  color: var(--white);
+  font-family: "Public Sans", sans-serif;
+}
+
 .sheesh > div {
   height: 100%;
   background: #111;
@@ -234,7 +240,7 @@ body {
   margin-bottom: 0.7em;
 }
 
-/*FOOTER*/
+
 /* FOOTER */
 
 .footer {
