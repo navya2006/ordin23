@@ -168,17 +168,9 @@ body {
   align-items: center;
   justify-content: center;
   background: -moz-linear-gradient(
-    0deg,
-    rgba(64, 114, 117, 1) 0%,
-    rgba(163, 222, 131, 1) 44%,
-    rgba(247, 243, 154, 1) 89%
+    0deg, rgba(90,255,21,1) 0%, rgba(0,183,18,1) 100%
   );
-  background: linear-gradient(
-    0deg,
-    rgba(64, 114, 117, 1) 0%,
-    rgba(163, 222, 131, 1) 44%,
-    rgba(247, 243, 154, 1) 89%
-  );
+  background: linear-gradient(0deg, rgba(90,255,21,1) 0%, rgba(0,183,18,1) 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
