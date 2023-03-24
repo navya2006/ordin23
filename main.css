@@ -40,7 +40,7 @@ text-decoration: none;
 }
 
 .navb h1 {
-	color: var(--color-three);
+	color: var(--white);
 	font-size: 2vw;
 	font-family: 'Poiret One', cursive;
 	float:left;
@@ -59,7 +59,7 @@ text-decoration: none;
 .navb .bar a{
 	float: right;
     display: block;
-	color: var(--color-four);
+	color: var(--white);
 	font-size: 1.1vw;
 	font-family: 'Poppins', sans-serif;
 	text-decoration: none;
@@ -78,7 +78,7 @@ text-decoration: none;
     width: 0%;
     content: '.';
     color: transparent;
-    background: var(--color-three);
+    background: var(--white);
     height: 2px;
     transition: all 0.6s;
 }
@@ -88,7 +88,7 @@ text-decoration: none;
 }
 
 .navb .bar a:hover{
-	color: var(--color-three);
+	color: var(--white);
 }
 
 .sidenav {
@@ -107,7 +107,7 @@ text-decoration: none;
 
 .sidenav a{
 	display:block;
-	color:var(--color-four);
+	color:var(--white);
 	padding: 6px 2px;
 	width:80%;
 	text-align:center;
@@ -129,7 +129,7 @@ text-decoration: none;
 	width:0%;
 	content:'.';
 	color:transparent;
-	background-color:var(--color-three);
+	background-color:var(--white);
 	height:2px;
 	transition: all 0.5s;
 }
@@ -139,7 +139,7 @@ text-decoration: none;
 }
 
 .sidenav a:hover {
-	color:var(--color-three);
+	color:var(--white);
 }
 
 .sidenav .close {
